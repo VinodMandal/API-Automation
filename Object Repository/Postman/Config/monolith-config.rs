@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>monolith-config</name>
+   <tag></tag>
+   <elementGuidId>0b5d1234-7acb-4e81-9ae4-3a4530ee8d51</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auth-id</name>
+      <type>Main</type>
+      <value>${Auth Id}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auth-token</name>
+      <type>Main</type>
+      <value>${Auth Token}</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>device-type</name>
+      <type>Main</type>
+      <value>ANDROID</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mobile</name>
+      <type>Main</type>
+      <value>7975652354</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>customer-id</name>
+      <type>Main</type>
+      <value>155</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.2.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>GET</restRequestMethod>
+   <restUrl>${Host}config/monolith</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>GlobalVariable.Host</defaultValue>
+      <description></description>
+      <id>73b7ce59-2f40-479a-8cf4-a0852ca053e1</id>
+      <masked>false</masked>
+      <name>Host</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Auth Id</defaultValue>
+      <description></description>
+      <id>ff2dd4b3-e6cc-4fba-8536-d12a3c7e98fe</id>
+      <masked>false</masked>
+      <name>Auth Id</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.Auth Token</defaultValue>
+      <description></description>
+      <id>2c7d3c98-0072-48a1-87fe-a9df87b69cd0</id>
+      <masked>false</masked>
+      <name>Auth Token</name>
+   </variables>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

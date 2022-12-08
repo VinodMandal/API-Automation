@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>New Postman Request(10)</name>
+   <tag></tag>
+   <elementGuidId>b3ddf74f-2be0-414d-8e8c-af70ce72df9e</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;\r\n{\r\n    \&quot;ucode_data\&quot;: \&quot;ev5~4_247,0a8im0z0zpe8r1t,2\&quot;,\r\n    \&quot;captured_frame_url\&quot;: \&quot;aws_path\&quot;,\r\n    \&quot;location\&quot;: {\r\n        \&quot;latitude\&quot;: 27.1055591,\r\n        \&quot;longitude\&quot;: 74.8496615\r\n    },\r\n    \&quot;captured_frame_path\&quot;: \&quot;Android/com.pioneer.emp/001222233/001222233_25062021181203919.jpg\&quot;\r\n}&quot;,
+  &quot;contentType&quot;: &quot;text/plain&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auth-id</name>
+      <type>Main</type>
+      <value>C4F360162828038753A4</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auth-token</name>
+      <type>Main</type>
+      <value>93935AB1248FA08A7783EF30954EBE9C4E074CD4</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>device-type</name>
+      <type>Main</type>
+      <value>IOS_SDK</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>app-id</name>
+      <type>Main</type>
+      <value>com.pioneer.phisalesemp</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>linked-user-id</name>
+      <type>Main</type>
+      <value>1234567890</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.2.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://dupont.acviss.co/api/v1/authenticity-verification/</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

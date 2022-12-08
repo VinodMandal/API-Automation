@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebServiceRequestEntity>
+   <description></description>
+   <name>authenticity-verification ---STANDARD(EPOSN MEA)</name>
+   <tag></tag>
+   <elementGuidId>49fdfc9e-a06a-4190-b8fe-148b7912241d</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <connectionTimeout>-1</connectionTimeout>
+   <followRedirects>false</followRedirects>
+   <httpBody></httpBody>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n\t\&quot;ucode_data\&quot;: \&quot;ev5~15_305,0p3fp0uvkkwr1rq,2\&quot;,\n\t\&quot;captured_frame_url\&quot;:\&quot;aws_path\&quot;,\n    \&quot;location\&quot;:{\&quot;latitude\&quot;:13.6551139,\&quot;longitude\&quot;:74.6648285},\n    \&quot;captured_frame_path\&quot;:\&quot;Android\\/com.acviss.app\\/7975652354\\/7975652354_17082020181440432.jpg\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auth-id</name>
+      <type>Main</type>
+      <value>GD1K4Q76523ALTE6ICCX</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>auth-token</name>
+      <type>Main</type>
+      <value>AQJRJ2NUGCUXQJYA1E1OKU9GZG59NIPUHQJU52H8</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>device-type</name>
+      <type>Main</type>
+      <value>IOS</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>mobile</name>
+      <type>Main</type>
+      <value></value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Authorization</name>
+      <type>Main</type>
+      <value></value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>linked-user-id</name>
+      <type>Main</type>
+      <value>123456ABCD</value>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>app-id</name>
+      <type>Main</type>
+      <value>com.acviss.epson.mea</value>
+   </httpHeaderProperties>
+   <katalonVersion>8.2.0</katalonVersion>
+   <maxResponseSize>-1</maxResponseSize>
+   <migratedVersion>5.4.1</migratedVersion>
+   <restRequestMethod>POST</restRequestMethod>
+   <restUrl>https://epsonmea.test.acviss.co/api/v1/authenticity-verification/</restUrl>
+   <serviceType>RESTful</serviceType>
+   <soapBody></soapBody>
+   <soapHeader></soapHeader>
+   <soapRequestMethod></soapRequestMethod>
+   <soapServiceEndpoint></soapServiceEndpoint>
+   <soapServiceFunction></soapServiceFunction>
+   <socketTimeout>-1</socketTimeout>
+   <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <wsdlAddress></wsdlAddress>
+</WebServiceRequestEntity>

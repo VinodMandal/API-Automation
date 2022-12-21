@@ -6,17 +6,17 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://acviss.co/api/v2/'</initValue>
+      <initValue>'https://url'</initValue>
       <name>Host</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'05AA618E714887CFA5DB04F0A4A06B0807E5DD6D'</initValue>
+      <initValue>'00000000000000000000000000'</initValue>
       <name>auth_token</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'E48C6DA7A58FB94F29C0'</initValue>
+      <initValue>'11111111111111'</initValue>
       <name>authid</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
